@@ -10,9 +10,11 @@
   },
   "dependencies": {
     "next": "15.2.2",
+    "next-intl": "^4.0.2",
     "next-nprogress-bar": "^2.4.7",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "sass": "^1.85.1",
     "zustand": "^5.0.3"
   },
   "devDependencies": {

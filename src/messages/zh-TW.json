@@ -1,0 +1,14 @@
+{
+  "Login": {
+    "title": "歡迎登入",
+    "subtitle": "如果您沒有賬號註冊",
+    "subtitle2": "可以在",
+    "register": "此處註冊!",
+    "email": "電子郵件",
+    "password": "密碼",
+    "login": "登入",
+    "forget": "忘記密碼了？",
+    "goHome": "返回首頁",
+    "logout": "登出"
+  }
+}
