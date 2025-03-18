@@ -1,11 +1,8 @@
 {
   "Login": {
     "title": "Welcome Login",
-    "subtitle": "If you don’t have an account register",
-    "subtitle2": "You can",
-    "register": "Register here !",
-    "email": "Email",
-    "placeholderEmail": "Enter your email address",
+    "account": "Account",
+    "placeholderAccount": "Enter your Account",
     "password": "Password",
     "placeholderPassword": "Enter your password",
     "login": "Sign in",

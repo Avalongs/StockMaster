@@ -1,11 +1,8 @@
 {
   "Login": {
     "title": "歡迎登入",
-    "subtitle": "如果您沒有賬號註冊",
-    "subtitle2": "可以在",
-    "register": "此處註冊!",
-    "email": "電子郵件",
-    "placeholderEmail": "請輸入您的電子郵件",
+    "account": "賬號",
+    "placeholderAccount": "請輸入您的賬號",
     "password": "密碼",
     "placeholderPassword": "請輸入您的密碼",
     "login": "登入",

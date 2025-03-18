@@ -1,6 +1,7 @@
+import { Language } from "@/types/language";
 import { cookies } from "next/headers";
 const COOKIE_NAME = "NEXT_LOCALE";
-export const setUserLolcal = async (local: string) => {
+export const setUserLolcal = async (local: Language) => {
   (await cookies()).set(COOKIE_NAME, local);
 };
 

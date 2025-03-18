@@ -2,9 +2,14 @@
 import { useRouter } from "next-nprogress-bar";
 import { useTranslations } from "next-intl";
 import { useState } from "react";
-import Input from "@/components/ui/Input";
+import { Input } from "antd";
+import {
+  EyeInvisibleOutlined,
+  EyeTwoTone,
+  UserOutlined,
+} from "@ant-design/icons";
 export default function Login() {
-  const [email, setEmail] = useState("");
+  const [account, setAccount] = useState("");
   const [password, setPassword] = useState("");
   const t = useTranslations("Login");
   const router = useRouter();
@@ -13,44 +18,28 @@ export default function Login() {
     document.cookie = "token=123123;path=/";
     router.push("/home");
   };
-  const register = () => {
-    router.push("/register");
-  };
   return (
     <div className="bg-white p-[20px] flex items-center justify-center gap-[130px] box-border w-screen h-screen">
       <div className="flex flex-col w-[430px] ml-[122px] gap-[52px]">
         <h1 className="text-black text-[30px] font-bold">{t("title")}</h1>
-        <h2 className="flex flex-col text-[16px] gap-[6px]">
-          <span>{t("subtitle")}</span>
-          <p>
-            <span>{t("subtitle2")}</span>
-            <span
-              className="ml-[10px] text-[#0c21c1] cursor-pointer"
-              onClick={register}
-            >
-              {t("register")}
-            </span>
-          </p>
-        </h2>
         <div className="flex flex-col gap-[50px]">
           <div className="flex flex-col gap-[10px]">
-            <div className="text-[#999] text-[13px]">{t("email")}</div>
+            <div className="text-[#999] text-[13px]">{t("account")}</div>
             <Input
-              id="email"
-              type="email"
-              value={email}
-              placeholder={t("placeholderEmail")}
-              onChange={(e) => setEmail(e.target.value)}
+              prefix={<UserOutlined style={{ color: "rgba(0,0,0,.25)" }} />}
+              value={account}
+              placeholder={t("placeholderAccount")}
+              onChange={(e) => setAccount(e.target.value)}
             />
           </div>
           <div className="flex flex-col gap-[10px]">
             <div className="text-[#999] text-[13px]">{t("password")}</div>
-            <Input
-              id="password"
-              type="password"
-              required
-              placeholder={t("placeholderPassword")}
+            <Input.Password
               value={password}
+              placeholder={t("placeholderPassword")}
+              iconRender={(visible) =>
+                visible ? <EyeTwoTone /> : <EyeInvisibleOutlined />
+              }
               onChange={(e) => setPassword(e.target.value)}
             />
           </div>

@@ -1,13 +1,10 @@
 {
   "Login": {
     "title": "欢迎登录",
-    "subtitle": "如果您没有帐户注册",
-    "subtitle2": "可以在",
-    "register": "此处注册！",
-    "email": "邮箱",
-    "placeholderEmail": "请输入邮箱",
+    "account": "账号",
+    "placeholderAccount": "请输入您的账号",
     "password": "密码",
-    "placeholderPassword": "请输入密码",
+    "placeholderPassword": "请输入您的密码",
     "login": "登录",
     "registerBtn": "注册",
     "forget": "忘记密码了？",
