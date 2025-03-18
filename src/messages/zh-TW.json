@@ -5,8 +5,11 @@
     "subtitle2": "可以在",
     "register": "此處註冊!",
     "email": "電子郵件",
+    "placeholderEmail": "請輸入您的電子郵件",
     "password": "密碼",
+    "placeholderPassword": "請輸入您的密碼",
     "login": "登入",
+    "registerBtn": "註冊",
     "forget": "忘記密碼了？",
     "goHome": "返回首頁",
     "logout": "登出"

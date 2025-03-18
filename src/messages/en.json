@@ -5,8 +5,11 @@
     "subtitle2": "You can",
     "register": "Register here !",
     "email": "Email",
+    "placeholderEmail": "Enter your email address",
     "password": "Password",
-    "login": "Login",
+    "placeholderPassword": "Enter your password",
+    "login": "Sign in",
+    "registerBtn": "Sign up",
     "forget": "Forgot password?",
     "goHome": "Back to Home",
     "logout": "Logout"

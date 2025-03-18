@@ -5,8 +5,11 @@
     "subtitle2": "可以在",
     "register": "此处注册！",
     "email": "邮箱",
+    "placeholderEmail": "请输入邮箱",
     "password": "密码",
+    "placeholderPassword": "请输入密码",
     "login": "登录",
+    "registerBtn": "注册",
     "forget": "忘记密码了？",
     "goHome": "返回首页",
     "logout": "退出登录"
