@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { AntdRegistry } from "@ant-design/nextjs-registry";
 import { ProgressBarProviders } from "./providers/progress-bar-providers";
 import { NextIntlClientProvider } from "next-intl";
 import { getLocale, getMessages } from "next-intl/server";
@@ -19,7 +20,9 @@ export default async function RootLayout({
     <html lang={local}>
       <body>
         <NextIntlClientProvider messages={messages}>
-          <ProgressBarProviders>{children}</ProgressBarProviders>
+          <AntdRegistry>
+            <ProgressBarProviders>{children}</ProgressBarProviders>
+          </AntdRegistry>
         </NextIntlClientProvider>
       </body>
     </html>
