@@ -10,5 +10,26 @@
     "forget": "忘記密碼了？",
     "goHome": "返回首頁",
     "logout": "登出"
+  },
+  "Layout": {
+    "language": "切換語言"
+  },
+  "Sider": {
+    "Good": {
+      "title": "商品管理",
+      "list": "商品列表",
+      "add": "新增商品",
+      "edit": "修改商品",
+      "delete": "刪除商品",
+      "detail": "商品詳情",
+      "category": "商品分類",
+      "price": "商品價格"
+    },
+    "Order": {
+      "title": "訂單管理"
+    },
+    "User": {
+      "title": "用戶管理"
+    }
   }
 }

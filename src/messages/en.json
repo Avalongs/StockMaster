@@ -10,5 +10,26 @@
     "forget": "Forgot password?",
     "goHome": "Back to Home",
     "logout": "Logout"
+  },
+  "Layout": {
+    "language": "Switch Language"
+  },
+  "Sider": {
+    "Good": {
+      "title": "Product Management",
+      "list": "Product List",
+      "add": "Add Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product",
+      "detail": "Product Details",
+      "category": "Product Category",
+      "price": "Product Price"
+    },
+    "Order": {
+      "title": "Order Management"
+    },
+    "User": {
+      "title": "User Management"
+    }
   }
 }
