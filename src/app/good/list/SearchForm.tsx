@@ -5,9 +5,12 @@ import { useTranslations } from "next-intl";
 import dayjs from "dayjs";
 import { SearchFormProps } from "./type";
 
-export default function SearchForm(props: {
-  onSearch: (arg0: SearchFormProps) => void;
-  onReset: (arg0: SearchFormProps) => void;
+export default function SearchForm({
+  onSearch,
+  onReset,
+}: {
+  onSearch: (values: SearchFormProps) => void;
+  onReset: (values: SearchFormProps) => void;
 }) {
   const t = useTranslations("Good.List");
   const [form] = Form.useForm<SearchFormProps>();
@@ -20,12 +23,12 @@ export default function SearchForm(props: {
       values.startDate = startDate;
       values.endDate = endDate;
     }
-    props.onSearch(values);
+    onSearch(values);
   };
-  const onReset = () => {
+  const reset = () => {
     form.resetFields();
     const values = form.getFieldsValue();
-    props.onReset(values);
+    onReset(values);
   };
   return (
     <Form form={form} onFinish={onFinish}>
@@ -69,7 +72,7 @@ export default function SearchForm(props: {
             <Button type="primary" htmlType="submit">
               {t("search")}
             </Button>
-            <Button htmlType="button" onClick={onReset}>
+            <Button htmlType="button" onClick={reset}>
               {t("reset")}
             </Button>
           </Space>
