@@ -1,15 +1,15 @@
 {
   "Login": {
-    "title": "歡迎登入",
-    "account": "賬號",
-    "placeholderAccount": "請輸入您的賬號",
+    "title": "歡迎登錄",
+    "account": "帳號",
+    "placeholderAccount": "請輸入您的帳號",
     "password": "密碼",
     "placeholderPassword": "請輸入您的密碼",
-    "login": "登入",
+    "login": "登錄",
     "registerBtn": "註冊",
     "forget": "忘記密碼了？",
     "goHome": "返回首頁",
-    "logout": "登出"
+    "logout": "退出登錄"
   },
   "Layout": {
     "language": "切換語言"
@@ -18,7 +18,7 @@
     "Good": {
       "title": "商品管理",
       "list": "商品列表",
-      "add": "新增商品",
+      "add": "添加商品",
       "edit": "修改商品",
       "delete": "刪除商品",
       "detail": "商品詳情",
@@ -30,6 +30,50 @@
     },
     "User": {
       "title": "用戶管理"
+    }
+  },
+  "Good": {
+    "List": {
+      "add": "新增商品",
+      "edit": "編輯商品",
+      "delete": "刪除商品",
+      "detail": "商品詳情",
+      "category": "商品分類",
+      "price": "商品價格",
+      "name": "商品名稱",
+      "createTime": "創建時間",
+      "search": "查詢",
+      "reset": "重置",
+      "export": "導出列表",
+      "placeholder": {
+        "name": "請輸入商品名稱",
+        "category": "請選擇商品分類",
+        "status": "請選擇商品狀態",
+        "startTime": "開始時間",
+        "endTime": "結束時間"
+      },
+      "statusLabel": "商品狀態",
+      "status": {
+        "online": "上架",
+        "offline": "下架"
+      },
+      "table": {
+        "id": "商品ID",
+        "image": "商品圖片",
+        "name": "商品名稱",
+        "category": "商品分類",
+        "price": "價格",
+        "stock": "庫存",
+        "status": "狀態",
+        "createTime": "創建時間",
+        "updateTime": "更新時間",
+        "action": "操作",
+        "preview": "預覽"
+      },
+      "action": {
+        "edit": "編輯",
+        "delete": "刪除"
+      }
     }
   }
 }

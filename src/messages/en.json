@@ -2,14 +2,14 @@
   "Login": {
     "title": "Welcome Login",
     "account": "Account",
-    "placeholderAccount": "Enter your Account",
+    "placeholderAccount": "Please enter your account",
     "password": "Password",
-    "placeholderPassword": "Enter your password",
+    "placeholderPassword": "Please enter your password",
     "login": "Sign in",
     "registerBtn": "Sign up",
     "forget": "Forgot password?",
     "goHome": "Back to Home",
-    "logout": "Logout"
+    "logout": "Sign out"
   },
   "Layout": {
     "language": "Switch Language"
@@ -30,6 +30,50 @@
     },
     "User": {
       "title": "User Management"
+    }
+  },
+  "Good": {
+    "List": {
+      "add": "Add Product",
+      "edit": "Edit Product",
+      "delete": "Delete Product",
+      "detail": "Product Details",
+      "category": "Product Category",
+      "price": "Product Price",
+      "name": "Product Name",
+      "createTime": "Create Time",
+      "search": "Search",
+      "reset": "Reset",
+      "export": "Export List",
+      "placeholder": {
+        "name": "Please enter product name",
+        "category": "Please select category",
+        "status": "Please select status",
+        "startTime": "Start Time",
+        "endTime": "End Time"
+      },
+      "statusLabel": "Product Status",
+      "status": {
+        "online": "Online",
+        "offline": "Offline"
+      },
+      "table": {
+        "id": "Product ID",
+        "image": "Product Image",
+        "name": "Product Name",
+        "category": "Category",
+        "price": "Price",
+        "stock": "Stock",
+        "status": "Status",
+        "createTime": "Create Time",
+        "updateTime": "Update Time",
+        "action": "Action",
+        "preview": "Preview"
+      },
+      "action": {
+        "edit": "Edit",
+        "delete": "Delete"
+      }
     }
   }
 }
